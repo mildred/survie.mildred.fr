@@ -40,10 +40,11 @@ data_sources:
     # same as the items root, but applies to layouts rather than items.
     layouts_root: /
 
-base_url: http://website.example.com/
+base_url: http://survie.mildred.fr/
 
 deploy:
   default:
+    dst: "mildred_survie@ssh.phx.nearlyfreespeech.net:/home/public"
     options: ["--rsh=ssh", '-glpPrtvz', '--del', '--delete-excluded', '--exclude=.hg', '--exclude=.git', '--exclude=.svn']
 
 tags:
@@ -58,7 +59,7 @@ tags:
 
 # Atom feed
 
-author_name:   Administrator
-author_uri:    http://website.example.com/
+author_name:   Mildred
+author_uri:    http://survie.mildred.fr/
 
 

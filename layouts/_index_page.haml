@@ -10,13 +10,15 @@
     last = @item.page_items.size
     first = last - articles.size + 1
   end
+  header = true if header.nil?
 
-- if @item[:title]
-  %h1= @item[:title]
-- elsif @item[:tag]
-  %h1= @item[:tag].capitalize
+- if header
+  - if @item[:title]
+    %h1= @item[:title]
+  - elsif @item[:tag]
+    %h1= @item[:tag].capitalize
 
-%p= "Articles from #{first} to #{last}"
+  %p= "Articles from #{first} to #{last}"
 
 .article-list
   - articles.each do |item|

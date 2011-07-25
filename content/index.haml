@@ -1,8 +1,20 @@
 ---
-title: Front Page
+title:      Encyclopédie de survie
+page_size:  5
+index_kind: article
 ---
 
-%h1 Front Page
+%h1= @item[:title]
+
 :markdown
-  Please customize this front page in `content/index.haml`.
+  Ce site a pour but de vous introduire au nouvel ordre mondial afin que vous
+  soyez parés pour l'avenir et puissiez éviter ses pièges. Le site est encore
+  petit mais de nombreux articles deraient voir le jour dans différentes
+  sections.
+
+%p
+  %a(href="#{link_item("/articles/")}") Voir tous les articles
+
+= render "_index_page", :header => false
+
 
