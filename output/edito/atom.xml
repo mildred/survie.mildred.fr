@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://survie.mildred.fr//</id>
+  <title>Editoriaux</title>
+  <updated>2011-07-25T19:38:02Z</updated>
+  <link href="http://survie.mildred.fr//" rel="alternate"/>
+  <link href="http://survie.mildred.fr//edito/" rel="self"/>
+  <author>
+    <name>Mildred</name>
+    <uri>http://survie.mildred.fr/</uri>
+  </author>
+  <entry>
+    <id>tag:survie.mildred.fr,2011-07-25://articles/2011/07/25/ditorial/</id>
+    <title type="html">&#201;ditorial</title>
+    <published>2011-07-25T19:38:02Z</published>
+    <updated>2011-07-25T19:38:02Z</updated>
+    <link href="http://survie.mildred.fr//articles/2011/07/25/ditorial/" rel="alternate"/>
+    <content type="html">&lt;p&gt;Ce site a pour but de vous introduire au nouvel ordre mondial afin que vous
+soyez par&#233;s pour l&amp;rsquo;avenir et puissiez &#233;viter ses pi&#232;ges. Le site est encore
+petit mais de nombreux articles deraient voir le jour dans diff&#233;rentes
+sections.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+

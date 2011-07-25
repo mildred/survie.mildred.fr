@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://survie.mildred.fr/sitemap.xml

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://survie.mildred.fr//</id>
+  <title>Encyclop&#233;die de survie</title>
+  <updated>2011-07-25T13:09:09Z</updated>
+  <link href="http://survie.mildred.fr//" rel="alternate"/>
+  <link href="http://survie.mildred.fr//" rel="self"/>
+  <author>
+    <name>Mildred</name>
+    <uri>http://survie.mildred.fr/</uri>
+  </author>
+  <entry>
+    <id>tag:survie.mildred.fr,2011-07-25://articles/2011/07/25/les_adresses_utiles/</id>
+    <title type="html">Les adresses utiles</title>
+    <published>2011-07-25T13:09:09Z</published>
+    <updated>2011-07-25T13:18:46Z</updated>
+    <link href="http://survie.mildred.fr//articles/2011/07/25/les_adresses_utiles/" rel="alternate"/>
+    <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="http://leveil2011.syl20jonathan.net/"&gt;L&amp;rsquo;&#233;veil 2011&lt;/a&gt;: Nouvelles quotidiennes
+ aggr&#233;g&#233;es de plein de blogs sur l&amp;rsquo;&#233;tat du monde.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="http://demosophie.com/indexFR.htm"&gt;D&#233;mosophie&lt;/a&gt;: de &lt;strong&gt;Demos&lt;/strong&gt; le peuple et
+&lt;strong&gt;Sophia&lt;/strong&gt; la sagesse. Ce site contient une section int&#233;ressante sur
+&lt;a href="http://demosophie.com/fr/dentroweb/nuevoordenmundialFR.htm"&gt;le nouvel ordre mondial&lt;/a&gt;.
+Il vise &#224; cr&#233;er un mouvement citoyen pour une vraie d&#233;mocratie, et souhaite
+se pr&#233;senter aux prochaines &#233;lections importantes des &#233;tats europ&#233;ens.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En vrac:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.voltairenet.org/"&gt;Le r&#233;seau voltaire&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>
+
