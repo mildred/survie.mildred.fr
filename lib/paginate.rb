@@ -11,8 +11,9 @@ end
 
 module Paginate
 
-  def items_of_kind(kind, items)
-    items.select { |i| i[:kind] == kind }
+  def items_of_kind(kind, it = nil)
+    it = items if it.nil?
+    it.select { |i| i[:kind] == kind }
   end
   
   def paginated_items(items)

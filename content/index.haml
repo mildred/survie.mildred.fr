@@ -4,13 +4,7 @@ page_size:  5
 index_kind: article
 ---
 
-%h1= @item[:title]
-
-:markdown
-  Ce site a pour but de vous introduire au nouvel ordre mondial afin que vous
-  soyez parés pour l'avenir et puissiez éviter ses pièges. Le site est encore
-  petit mais de nombreux articles deraient voir le jour dans différentes
-  sections.
+= render '_article', :item => (items_of_kind("edito").first)
 
 %p
   %a(href="#{link_item("/articles/")}") Voir tous les articles
