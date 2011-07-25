@@ -1,16 +1,29 @@
 html {
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif; }
 
-.header .links {
-  float: left;
-  width: 10em;
-  min-width: 150px; }
-  .header .links img {
-    max-width: 9.5em; }
-.header .content {
-  clear: right;
-  margin-left: 11em;
+.header {
   border-bottom: 1px solid #dddddd; }
+  .header .left {
+    float: left;
+    width: 10em; }
+    .header .left img {
+      max-width: 9.5em;
+      max-height: 8em; }
+  .header .content {
+    float: left; }
+  .header .right {
+    float: right;
+    width: 10em; }
+  .header .links a {
+    text-decoration: none;
+    font-weight: bold; }
+  .header .links > ul {
+    padding: 0; }
+    .header .links > ul > li {
+      margin-left: 0;
+      margin-right: 0.5em;
+      float: left;
+      list-style-type: none; }
 
 .leftcol {
   float: left;
@@ -19,7 +32,10 @@ html {
   font-size: 0.7em; }
 
 .main {
-  padding-left: 11em; }
+  margin-right: 1em;
+  margin-left: 1em;
+  max-width: 80em;
+  text-align: justify; }
 
 .footer {
   font-style: italic; }
