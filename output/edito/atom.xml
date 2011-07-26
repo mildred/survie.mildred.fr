@@ -1,24 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://survie.mildred.fr//</id>
+  <id>http://survie.mildred.fr/</id>
   <title>Editoriaux</title>
   <updated>2011-07-25T19:38:02Z</updated>
-  <link href="http://survie.mildred.fr//" rel="alternate"/>
-  <link href="http://survie.mildred.fr//edito/" rel="self"/>
+  <link href="http://survie.mildred.fr/" rel="alternate"/>
+  <link href="http://survie.mildred.fr/edito/" rel="self"/>
   <author>
     <name>Mildred</name>
     <uri>http://survie.mildred.fr/</uri>
   </author>
   <entry>
-    <id>tag:survie.mildred.fr,2011-07-25://articles/2011/07/25/ditorial/</id>
+    <id>tag:survie.mildred.fr,2011-07-25:/articles/2011/07/25/ditorial/</id>
     <title type="html">&#201;ditorial</title>
     <published>2011-07-25T19:38:02Z</published>
     <updated>2011-07-25T19:38:02Z</updated>
-    <link href="http://survie.mildred.fr//articles/2011/07/25/ditorial/" rel="alternate"/>
+    <link href="http://survie.mildred.fr/articles/2011/07/25/ditorial/" rel="alternate"/>
     <content type="html">&lt;p&gt;Ce site a pour but de vous introduire au nouvel ordre mondial afin que vous
 soyez par&#233;s pour l&amp;rsquo;avenir et puissiez &#233;viter ses pi&#232;ges. Le site est encore
 petit mais de nombreux articles deraient voir le jour dans diff&#233;rentes
 sections.&lt;/p&gt;
+
+&lt;p&gt;Il vise aussi &#224; regrouper en un seul endroit des informations trouv&#233;es un peu
+partout sur la toile. Ceci afin d&amp;rsquo;avoir sur un seul site t&#233;l&#233;chargeable tout ce
+qui pourrait &#234;tre utile en cas de division ou coupure d&amp;rsquo;Internet.&lt;/p&gt;
+
+&lt;p&gt;Je vous incite donc &#224;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;t&#233;l&#233;charger ce site (TODO: lien sur github).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;si posible faire un miroir de la distribution debian, tr&#232;s compl&#232;te. Elle
+contient la majorit&#233; des logiciels qui peuvent vous &#234;tre utiles.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Imprimer tous les articles de ce site en cas de d&#233;faillance informatique.
+Pour ce faire, il est seulement n&#233;cessaire d&amp;rsquo;imprimer toutes les pages
+d&amp;rsquo;archives. Les articles y figurent dans leur totalit&#233;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mettre en place sur votre ordinateur un client Tor (TODO: lien) afin de
+pouvoir acc&#233;der &#224; l&amp;rsquo;Internet Anonyme. Veillez &#224; bien marquer les sites
+.onion que vous utilisez sur Tor. En voici quelques uns: TODO: fornir une
+liste de liens utiles vers les sites Tor principaux.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
 </feed>

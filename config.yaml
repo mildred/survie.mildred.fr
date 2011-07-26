@@ -40,7 +40,7 @@ data_sources:
     # same as the items root, but applies to layouts rather than items.
     layouts_root: /
 
-base_url: http://survie.mildred.fr/
+base_url: http://survie.mildred.fr
 site_name: Encyclopédie de Survie
 
 deploy:

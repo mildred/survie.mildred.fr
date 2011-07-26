@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://survie.mildred.fr//</id>
+  <id>http://survie.mildred.fr/</id>
   <title>Articles</title>
   <updated>2011-07-25T13:09:09Z</updated>
-  <link href="http://survie.mildred.fr//" rel="alternate"/>
-  <link href="http://survie.mildred.fr//articles/" rel="self"/>
+  <link href="http://survie.mildred.fr/" rel="alternate"/>
+  <link href="http://survie.mildred.fr/articles/" rel="self"/>
   <author>
     <name>Mildred</name>
     <uri>http://survie.mildred.fr/</uri>
   </author>
   <entry>
-    <id>tag:survie.mildred.fr,2011-07-25://articles/2011/07/25/les_adresses_utiles/</id>
+    <id>tag:survie.mildred.fr,2011-07-25:/articles/2011/07/25/les_adresses_utiles/</id>
     <title type="html">Les adresses utiles</title>
     <published>2011-07-25T13:09:09Z</published>
     <updated>2011-07-25T13:18:46Z</updated>
-    <link href="http://survie.mildred.fr//articles/2011/07/25/les_adresses_utiles/" rel="alternate"/>
+    <link href="http://survie.mildred.fr/articles/2011/07/25/les_adresses_utiles/" rel="alternate"/>
     <content type="html">&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href="http://leveil2011.syl20jonathan.net/"&gt;L&amp;rsquo;&#233;veil 2011&lt;/a&gt;: Nouvelles quotidiennes
