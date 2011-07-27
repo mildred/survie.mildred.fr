@@ -3,33 +3,49 @@ html {
 
 .header {
   border-bottom: 1px solid #dddddd; }
+  .header a {
+    text-decoration: none; }
+  .header .access-links {
+    float: right;
+    font-size: 0.7em;
+    opacity: 0.5; }
   .header .left {
     float: left;
-    width: 10em; }
+    width: 10em;
+    height: 100%; }
     .header .left img {
-      max-width: 9.5em;
-      max-height: 8em; }
+      max-width: 9.5em; }
+  .header .title {
+    margin-left: 10em;
+    border-bottom: 2px solid #125aa7; }
+    .header .title h1 {
+      margin: 0; }
   .header .content {
     float: left; }
   .header .right {
     float: right;
     width: 10em; }
+    .header .right > * {
+      font-size: 0.8em; }
+  .header .links ul {
+    margin: 0; }
   .header .links a {
-    text-decoration: none;
     font-weight: bold;
     color: #125aa7; }
   .header .links > ul {
     padding: 0; }
     .header .links > ul > li {
+      width: 13em;
       margin: 0;
       padding-left: 0.5em;
       padding-right: 0.5em;
-      border-left: 1px solid #dddddd;
+      border-right: 1px solid #dddddd;
       float: left;
       list-style-type: none; }
-      .header .links > ul > li:first-child {
-        padding-left: 0;
-        border-left: none; }
+      .header .links > ul > li:last-child {
+        border-right: none; }
+      .header .links > ul > li > * {
+        font-size: 0.8em; }
 
 .leftcol {
   float: left;
@@ -64,6 +80,12 @@ html {
 
 .clear-right {
   clear: right; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
 
 h1, h2 {
   text-shadow: 2px 2px 3px rgba(135, 145, 135, 0.65); }
@@ -137,6 +159,10 @@ ul.tags, ul.page-list, .tags {
     background-color: #eeeeee; }
 
 @media screen and (max-width: 20em) {
+  .header .title {
+    margin: 0;
+    clear: both; }
+
   .leftcol {
     float: right; }
 
