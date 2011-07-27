@@ -33,6 +33,7 @@ kind:       article
 publish:    true
 tags:
   - misc
+  - fr|en
 ---
 
 TODO: Add content to `#{full_path}.`

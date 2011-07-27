@@ -1,7 +1,35 @@
+:ruby
+  tags = @item[:tags]
+  submenu = if    tags.nil?                 then nil
+            elsif tags.include? :nwo        then :nwo
+            elsif tags.include? :freeenergy then :freeenergy
+            else nil end
 .links
   
   %ul
     %li
-      %a(href="#{link_item("/articles/")}") Articles
+      %a Archives
+      %ul
+        %li
+          %a(href="#{link_item("/articles/")}") Articles
+        %li
+          %a(href="#{link_item("/edito/")}") Éditoriaux
+
     %li
-      %a(href="#{link_item("/edito/")}") Éditoriaux
+      %a(href="#{link_item("/tags/nwo/")}") Le Nouvel Ordre Mondial
+      %ul
+        %li
+          %a Les Buts
+        %li
+          %a Les Armes
+
+    %li
+      %a(href="#{link_item("/tags/freeenergy/")}") Les Énergies Libres
+      %ul
+        %li
+          %a Air Comprimé
+        %li
+          %a Énergie Magnétique
+        %li
+          %a Nouvelles Théories Physiques
+

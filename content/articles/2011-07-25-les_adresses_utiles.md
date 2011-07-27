@@ -7,6 +7,7 @@ kind:       article
 publish:    true
 tags:
   - liens
+  - fr
 ---
 
  -  [L'éveil 2011](http://leveil2011.syl20jonathan.net/): Nouvelles quotidiennes

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://survie.mildred.fr/</id>
+  <title>Category: nwo</title>
+  <updated>2011-07-27T10:31:38Z</updated>
+  <link href="http://survie.mildred.fr/" rel="alternate"/>
+  <link href="http://survie.mildred.fr/tags/nwo/" rel="self"/>
+  <author>
+    <name>Mildred</name>
+    <uri>http://survie.mildred.fr/</uri>
+  </author>
+  <entry>
+    <id>tag:survie.mildred.fr,2011-07-27:/articles/2011/07/27/new_world_order/</id>
+    <title type="html">New World Order</title>
+    <published>2011-07-27T10:31:38Z</published>
+    <updated>2011-07-27T10:32:56Z</updated>
+    <link href="http://survie.mildred.fr/articles/2011/07/27/new_world_order/" rel="alternate"/>
+    <content type="html">&lt;p&gt;TODO: Add content to &lt;code&gt;content/articles/2011-07-27-new_world_order.md.&lt;/code&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+

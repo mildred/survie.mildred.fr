@@ -13,6 +13,14 @@
     <lastmod>2011-07-26</lastmod>
   </url>
   <url>
+    <loc>http://survie.mildred.fr/articles/2011/07/27/free_energy/</loc>
+    <lastmod>2011-07-27</lastmod>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/articles/2011/07/27/new_world_order/</loc>
+    <lastmod>2011-07-27</lastmod>
+  </url>
+  <url>
     <loc>http://survie.mildred.fr/style.css</loc>
     <lastmod>2011-07-25</lastmod>
   </url>
@@ -37,10 +45,28 @@
     <lastmod>2011-07-25</lastmod>
   </url>
   <url>
+    <loc>http://survie.mildred.fr/tags/tesla/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/tesla/atom.xml</loc>
+  </url>
+  <url>
     <loc>http://survie.mildred.fr/tags/liens/</loc>
   </url>
   <url>
     <loc>http://survie.mildred.fr/tags/liens/atom.xml</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/nwo/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/nwo/atom.xml</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/freeenergy/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/freeenergy/atom.xml</loc>
   </url>
   <url>
     <loc>http://survie.mildred.fr/articles/1/</loc>
@@ -52,6 +78,15 @@
     <loc>http://survie.mildred.fr/1/</loc>
   </url>
   <url>
+    <loc>http://survie.mildred.fr/tags/tesla/1/</loc>
+  </url>
+  <url>
     <loc>http://survie.mildred.fr/tags/liens/1/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/nwo/1/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/freeenergy/1/</loc>
   </url>
 </urlset>
