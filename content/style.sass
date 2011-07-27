@@ -6,7 +6,7 @@ route_default: /style.css
 $debug: 0
 $color_link: #125AA7
 $font_size_menu: 0.8em
-$width_menu: 13em
+$width_menu: 12em
 
 @if $debug != 0
   /***** DEBUG *****/
@@ -34,12 +34,11 @@ html
     img
       max-width: 9.5em
   .title
-    margin-left: 10em
     border-bottom: 2px solid #125AA7
     h1
       margin: 0
-  .content
-    float: left
+  .content, .title
+    margin-left: 10em
   .right
     float: right
     width: 10em
@@ -54,6 +53,8 @@ html
     & > ul
       padding: 0
       & > li
+        display: inline-block
+        vertical-align: top
         width: $width_menu
         margin: 0
         padding:
@@ -62,7 +63,6 @@ html
         &:last-child
           border-right: none
         border-right: 1px solid #ddd
-        float: left
         list-style-type: none
         & > *
           font-size: $font_size_menu
@@ -188,7 +188,7 @@ ul.tags, ul.page-list, .tags
 @media screen and (max-width: 20em)
   // If we want to implement a menu, put here the code for smartphones
   .header
-    .title
+    .title, .content
       margin: 0
       clear: both
   .leftcol

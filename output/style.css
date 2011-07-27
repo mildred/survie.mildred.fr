@@ -16,12 +16,11 @@ html {
     .header .left img {
       max-width: 9.5em; }
   .header .title {
-    margin-left: 10em;
     border-bottom: 2px solid #125aa7; }
     .header .title h1 {
       margin: 0; }
-  .header .content {
-    float: left; }
+  .header .content, .header .title {
+    margin-left: 10em; }
   .header .right {
     float: right;
     width: 10em; }
@@ -35,12 +34,13 @@ html {
   .header .links > ul {
     padding: 0; }
     .header .links > ul > li {
-      width: 13em;
+      display: inline-block;
+      vertical-align: top;
+      width: 12em;
       margin: 0;
       padding-left: 0.5em;
       padding-right: 0.5em;
       border-right: 1px solid #dddddd;
-      float: left;
       list-style-type: none; }
       .header .links > ul > li:last-child {
         border-right: none; }
@@ -159,7 +159,7 @@ ul.tags, ul.page-list, .tags {
     background-color: #eeeeee; }
 
 @media screen and (max-width: 20em) {
-  .header .title {
+  .header .title, .header .content {
     margin: 0;
     clear: both; }
 

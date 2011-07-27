@@ -31,7 +31,7 @@
           %a(href="#{link_item("/tags/freeenergy/")}") Les Énergies Libres
 
   - unless (tags & [:freeenergy]).empty?
-    %ul.clear
+    %ul
       - if tags.include? :freeenergy
         %li
           %strong Les Énergies Libres
