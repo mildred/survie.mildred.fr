@@ -1,5 +1,5 @@
 ---
-title:      New World Order
+title:      Un Nouvel Ordre Mondial
 created_at: 2011-07-27 12:31:38 +02:00
 excerpt:
 author:     Mildred

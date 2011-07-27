@@ -19,7 +19,7 @@ html {
     border-bottom: 2px solid #125aa7; }
     .header .title h1 {
       margin: 0; }
-  .header .content, .header .title {
+  .header .title, .header .content {
     margin-left: 10em; }
   .header .right {
     float: right;
@@ -34,9 +34,9 @@ html {
   .header .links > ul {
     padding: 0; }
     .header .links > ul > li {
+      width: 12em;
       display: inline-block;
       vertical-align: top;
-      width: 12em;
       margin: 0;
       padding-left: 0.5em;
       padding-right: 0.5em;
