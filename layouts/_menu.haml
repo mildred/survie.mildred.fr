@@ -1,14 +1,13 @@
 :ruby
   tags = @item[:tags]
-  submenu = if    tags.nil?                 then nil
-            elsif tags.include? :nwo        then :nwo
-            elsif tags.include? :freeenergy then :freeenergy
-            else nil end
+  tags = [] if tags.nil?
+  tags = tags.map { |s| s.to_sym }
+  tags << @item[:tag].to_sym unless @item[:tag].nil?
 .links
   
   %ul
     %li
-      %a Archives
+      %strong Archives
       %ul
         %li
           %a(href="#{link_item("/articles/")}") Articles
@@ -16,7 +15,8 @@
           %a(href="#{link_item("/edito/")}") Éditoriaux
 
     %li
-      %a(href="#{link_item("/tags/nwo/")}") Le Nouvel Ordre Mondial
+      %strong
+        %a(href="#{link_item("/tags/nwo/")}") Le Nouvel Ordre Mondial
       %ul
         %li
           %a Les Buts
@@ -24,12 +24,21 @@
           %a Les Armes
 
     %li
-      %a(href="#{link_item("/tags/freeenergy/")}") Les Énergies Libres
+      %strong Le Futur
       %ul
         %li
-          %a Air Comprimé
+          %a(href="#{link_item("/tags/freeenergy/")}") Les Énergies Libres
+
+  - unless (tags & [:freeenergy]).empty?
+    %ul.clear
+      - if tags.include? :freeenergy
         %li
-          %a Énergie Magnétique
-        %li
-          %a Nouvelles Théories Physiques
+          %strong Les Énergies Libres
+          %ul
+            %li
+              %a Air Comprimé
+            %li
+              %a Énergie Magnétique
+            %li
+              %a Nouvelles Théories Physiques
 
