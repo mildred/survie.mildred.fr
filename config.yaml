@@ -45,7 +45,7 @@ site_name: Encyclopédie de Survie
 
 deploy:
   default:
-    dst: "mildred_survie@ssh.phx.nearlyfreespeech.net:/home/public"
+    dst: "mildred_encyclopedie-de-survie@ssh.phx.nearlyfreespeech.net:/home/public"
     options: ["--rsh=ssh", '-glpPrtvz', '--del', '--delete-excluded', '--exclude=.hg', '--exclude=.git', '--exclude=.svn']
 
 tags:

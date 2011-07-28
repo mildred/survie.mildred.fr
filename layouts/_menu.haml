@@ -20,17 +20,21 @@
         %a(href="#{link_item("/tags/nwo/")}") Le Nouvel Ordre Mondial
       %ul
         %li
-          %a Ses Buts
+          %a Qui Sont Ils
         %li
-          %a Ses Armes
+          %a Leurs Buts
+        %li
+          %a Leurs Armes
 
     %li
-      %strong Le Futur
+      %strong Comprendre
       %ul
+        %li
+          %a(href="#{link_item("/tags/event/")}") Évennements
         %li
           %a(href="#{link_item("/tags/freeenergy/")}") Les Énergies Libres
 
-  - unless (tags & [:freeenergy]).empty?
+  - unless (tags & [:freeenergy, :event]).empty?
     %ul
       - if tags.include? :freeenergy
         %li
@@ -42,4 +46,10 @@
               %a Énergie Magnétique
             %li
               %a Nouvelles Théories Physiques
+      - if tags.include? :event
+        %li
+          %strong Évennements
+          %ul
+            %li
+              %a(href="#{link_item("/tags/elenin/")}") Elenin
 
