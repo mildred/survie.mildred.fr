@@ -28,10 +28,10 @@ qui pourrait &#234;tre utile en cas de division ou coupure d&amp;rsquo;Internet.
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;t&#233;l&#233;charger ce site (TODO: lien sur github).&lt;/p&gt;
+    &lt;p&gt;&lt;a href="https://github.com/mildred/survie.mildred.fr/zipball/master"&gt;T&#233;l&#233;charger ce site&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;si posible faire un miroir de la distribution debian, tr&#232;s compl&#232;te. Elle
+    &lt;p&gt;Si posible faire un miroir de la &lt;a href="http://debian.org"&gt;distribution debian&lt;/a&gt;, tr&#232;s compl&#232;te. Elle
 contient la majorit&#233; des logiciels qui peuvent vous &#234;tre utiles.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -40,7 +40,7 @@ Pour ce faire, il est seulement n&#233;cessaire d&amp;rsquo;imprimer toutes les 
 d&amp;rsquo;archives. Les articles y figurent dans leur totalit&#233;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Mettre en place sur votre ordinateur un client Tor (TODO: lien) afin de
+    &lt;p&gt;Mettre en place sur votre ordinateur un &lt;a href="http://torproject.org"&gt;client Tor&lt;/a&gt; afin de
 pouvoir acc&#233;der &#224; l&amp;rsquo;Internet Anonyme. Veillez &#224; bien marquer les sites
 .onion que vous utilisez sur Tor. En voici quelques uns: TODO: fornir une
 liste de liens utiles vers les sites Tor principaux.&lt;/p&gt;

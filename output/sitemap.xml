@@ -41,6 +41,10 @@
     <lastmod>2011-07-27</lastmod>
   </url>
   <url>
+    <loc>http://survie.mildred.fr/articles/2011/08/06/et_le_tiers_de_la_mer_devint_du_sang/</loc>
+    <lastmod>2011-08-06</lastmod>
+  </url>
+  <url>
     <loc>http://survie.mildred.fr/edito/</loc>
     <lastmod>2011-07-25</lastmod>
   </url>
@@ -73,6 +77,12 @@
   </url>
   <url>
     <loc>http://survie.mildred.fr/tags/tesla/atom.xml</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/end/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/end/atom.xml</loc>
   </url>
   <url>
     <loc>http://survie.mildred.fr/tags/hatem/</loc>
@@ -130,6 +140,9 @@
   </url>
   <url>
     <loc>http://survie.mildred.fr/tags/tesla/1/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/end/1/</loc>
   </url>
   <url>
     <loc>http://survie.mildred.fr/tags/hatem/1/</loc>
