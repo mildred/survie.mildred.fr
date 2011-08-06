@@ -1,3 +1,6 @@
 [submodule "static/Scripts/json"]
 	path = static/Scripts/json
 	url = https://github.com/douglascrockford/JSON-js.git
+[submodule "tools/to-data-uri"]
+	path = tools/to-data-uri
+	url = https://github.com/mildred/to-data-uri.git

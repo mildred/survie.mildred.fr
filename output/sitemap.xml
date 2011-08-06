@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
   <url>
+    <loc>http://survie.mildred.fr/articles/2011/07/28/hatem_science/</loc>
+    <lastmod>2011-07-28</lastmod>
+  </url>
+  <url>
     <loc>http://survie.mildred.fr/articles/</loc>
     <lastmod>2011-07-25</lastmod>
   </url>
@@ -71,6 +75,12 @@
     <loc>http://survie.mildred.fr/tags/tesla/atom.xml</loc>
   </url>
   <url>
+    <loc>http://survie.mildred.fr/tags/hatem/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/hatem/atom.xml</loc>
+  </url>
+  <url>
     <loc>http://survie.mildred.fr/tags/liens/</loc>
   </url>
   <url>
@@ -110,6 +120,9 @@
     <loc>http://survie.mildred.fr/1/</loc>
   </url>
   <url>
+    <loc>http://survie.mildred.fr/2/</loc>
+  </url>
+  <url>
     <loc>http://survie.mildred.fr/tags/fr/1/</loc>
   </url>
   <url>
@@ -117,6 +130,9 @@
   </url>
   <url>
     <loc>http://survie.mildred.fr/tags/tesla/1/</loc>
+  </url>
+  <url>
+    <loc>http://survie.mildred.fr/tags/hatem/1/</loc>
   </url>
   <url>
     <loc>http://survie.mildred.fr/tags/liens/1/</loc>
